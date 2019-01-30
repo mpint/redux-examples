@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install-all": "cd node; yarn; cd ../simple; yarn; cd ../request; yarn; cd ..",
     "run:node": "node node/index.js",
     "run:simple": "cd simple && yarn start && cd ..",
     "run:request": "cd request && yarn start && cd .."
